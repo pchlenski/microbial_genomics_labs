@@ -1,0 +1,6 @@
+- "left reads":
+  - "/Users/gregory.wood/Downloads/jupyter_notebooks/lab4/read_1.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/gregory.wood/Downloads/jupyter_notebooks/lab4/read_2.fastq.gz"
+  "type": "paired-end"

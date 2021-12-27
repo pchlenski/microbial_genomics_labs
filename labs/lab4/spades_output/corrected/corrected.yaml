@@ -1,0 +1,8 @@
+- "left reads":
+  - "/Users/gregory.wood/Downloads/jupyter_notebooks/lab4/spades_output/corrected/read_1.fastq.00.0_0.cor.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/gregory.wood/Downloads/jupyter_notebooks/lab4/spades_output/corrected/read_2.fastq.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/Users/gregory.wood/Downloads/jupyter_notebooks/lab4/spades_output/corrected/read__unpaired.00.0_0.cor.fastq.gz"
+  "type": "paired-end"

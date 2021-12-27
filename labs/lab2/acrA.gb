@@ -1,0 +1,72 @@
+LOCUS       MT130448                 910 bp    DNA     linear   BCT 22-FEB-2021
+DEFINITION  Salmonella enterica subsp. enterica serovar Enteritidis strain
+            103D2 AcrA (acrA) gene, partial cds.
+ACCESSION   MT130448
+VERSION     MT130448.1
+KEYWORDS    .
+SOURCE      Salmonella enterica subsp. enterica serovar Enteritidis (Salmonella
+            enteritidis)
+  ORGANISM  Salmonella enterica subsp. enterica serovar Enteritidis
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Salmonella.
+REFERENCE   1  (bases 1 to 910)
+  AUTHORS   Wang,Y. and Yang,B.
+  TITLE     Influence of methyl-directed mismatch repair (MMR) gene deficiency
+            on ciprofloxacin resistance in Salmonella hypermutator
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 910)
+  AUTHORS   Wang,Y. and Yang,B.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-FEB-2020) College of Food Science and Technology,
+            Northwest University, Taibai west street 229#, Xi'an, Shaanxi
+            710069, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..910
+                     /organism="Salmonella enterica subsp. enterica serovar
+                     Enteritidis"
+                     /mol_type="genomic DNA"
+                     /strain="103D2"
+                     /serovar="Enteritidis"
+                     /isolation_source="Chicken wing"
+                     /sub_species="enterica"
+                     /db_xref="taxon:149539"
+                     /country="China:Shaanxi Province,Yangling"
+                     /collection_date="2010"
+                     /collected_by="Yin Wang"
+     gene            <1..>910
+                     /gene="acrA"
+     CDS             <1..>910
+                     /gene="acrA"
+                     /note="efflux pump"
+                     /codon_start=3
+                     /transl_table=11
+                     /product="AcrA"
+                     /protein_id="QRU95076.1"
+                     /translation="RSFLMLSGSLALTGCDDKQDQQGGQQMPEVGVVTLKTEPLQITT
+                     ELPGRTVAYRIAEVRPQVSGIILKRNFVEGSDIEAGVSLYQIDPATYQATYDSAKGDL
+                     AKAQAAANIAELTVKRYQKLLGTQYISKQEYDQALADAQQATAAVVAAKAAVETARIN
+                     LAYTKVTSPISGRIGKSSVTEGALVQNGQASALATVQQLDPIYVDVTQSSNDFLRLKQ
+                     ELANGSLKQENGKAKVDLVTSDGIKFPQSGTLEFSDVTVDQTTGSITLRAIFPNPDHT
+                     LLPGMFVRARLQEGTKPTALLVHQTG"
+ORIGIN      
+        1 ttcggtcgtt tctgatgctc tcaggcagct tagcgctaac aggatgtgac gacaaacagg
+       61 accagcaagg cggccagcag atgccagaag ttggagttgt cacactaaaa acggaaccac
+      121 tgcaaatcac aactgaactt ccgggtcgta ccgttgctta ccgtatcgcc gaagttcgcc
+      181 cacaggtaag cggcattatc ctgaagcgta atttcgttga gggaagtgat atcgaagcgg
+      241 gagtctctct ctatcagatt gatcctgcga cctaccaggc gacttacgac agcgctaagg
+      301 gcgatctggc aaaagcgcag gccgccgcga atatcgctga actgacggtg aagcgttatc
+      361 aaaagctgct gggtacgcag tacatcagta agcaggaata cgatcaggcg ctggctgacg
+      421 cgcaacaagc gactgccgcc gttgtcgcag caaaagccgc cgttgaaacc gcacgtatca
+      481 acctggcgta taccaaagtc acctcgccga ttagcggtcg tattggtaag tcgtccgtaa
+      541 cggaaggcgc gctggtacag aacggtcagg cgtcggcgct ggcgacagtg cagcagctgg
+      601 accctattta tgtcgatgtg acccagtcca gcaatgactt cctgcgcctg aagcaggagc
+      661 tggcaaatgg ttcgctgaaa caggaaaacg gcaaagcgaa ggtcgatctg gtgaccagcg
+      721 acggtatcaa attcccgcag tccggtacgc ttgagttctc cgacgtgacc gttgaccaaa
+      781 ccaccgggtc tattactttg cgcgccatct tccctaaccc ggatcacacc ttattgccag
+      841 gaatgttcgt tcgcgcacgt ctgcaggaag ggacaaaacc gacggcatta ctggttcacc
+      901 aaacagggca
+//
+

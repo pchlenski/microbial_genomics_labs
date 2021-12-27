@@ -1,0 +1,173 @@
+BLASTN 2.4.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: User specified sequence set (Input: katG_SE.fasta).
+           1 sequences; 2,183 total letters
+
+
+
+Query= gnl|ECOLI|EG10511 katG HYDROPEROXIDI-MONOMER 4133835..4136015
+Escherichia coli K-12 substr. MG1655
+
+Length=2181
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  LR134141.1:4454940-4457122 Salmonella enterica subsp. salamae s...  2085    0.0  
+
+
+
+Query_1    1     ATGAGCACGTCAGACGATATCCATAACACCACAGCCACTGGCAAATGCCCGTTCCATCAG  60
+Subject_1  2183  .......T.A.C.......C.........GTT.T.......A.....T..T.........  2124
+
+Query_1    61    GGCGGTCACGACCAGAGTGCGGGGGCGGGCACAACCACTCGCGACTGGTGGCCAAATCAA  120
+Subject_1  2123  ..G..G..T....GA..C..A..C..A..G...G...GC..............G......  2064
+
+Query_1    121   CTTCGTGTTGACCTGTTAAACCAACATTCTAATCGTTCTAACCCACTGGGTGAGGACTTT  180
+Subject_1  2063  ........G..T..T..G..T........C..C...........G........A......  2004
+
+Query_1    181   GACTACCGCAAAGAATTCAGCAAATTAGATTACTACGGCCTGAAAAAAGATCTGAAAGCC  240
+Subject_1  2003  ..............G..T.....G.....C....C..CT......GGG.....C..G..G  1944
+
+Query_1    241   CTGTTGACAGAATCTCAACCGTGGTGGCCAGCCGACTGGGGCAGTTACGCCGGTCTGTTT  300
+Subject_1  1943  ...C....C..T..A..............T...........G..C..T.T....T.....  1884
+
+Query_1    301   ATTCGTATGGCCTGGCACGGCGCGGGGACTTACCGTTCAATCGATGGACGCGGTGGCGCG  360
+Subject_1  1883  .................T.....T..C..C........T..T.....T..T..C......  1824
+
+Query_1    361   GGTCGTGGTCAGCAACGTTTTGCACCGCTGAACTCCTGGCCGGATAACGTAAGCCTCGAT  420
+Subject_1  1823  .....C.....A..G........G.....T....................C.....G...  1764
+
+Query_1    421   AAAGCGCGTCGCCTGTTGTGGCCAATCAAACAGAAATATGGTCAGAAAATCTCCTGGGCC  480
+Subject_1  1763  ..G........TT.AC.......G..T..G...........C........T.........  1704
+
+Query_1    481   GACCTGTTTATCCTCGCGGGTAACGTGGCGCTAGAAAACTCCGGCTTCCGTACCTTCGGT  540
+Subject_1  1703  ...........T..G.................G...........................  1644
+
+Query_1    541   TTTGGTGCCGGTCGTGAAGACGTCTGGGAACCGGATCTGGATGTTAACTGGGGTGATGAA  600
+Subject_1  1643  ..C..C.....G........T........G..............G........C......  1583
+                                                                      \      
+                                                                      |      
+                                                                      G
+
+Query_1    601   AAAGCCTGGCTGACTCACCGTCATCCGGAAGCGCTGGCGAAAGCACCGCTGGGTGCAACC  660
+Subject_1  1582  .........T....G.....A.....T.................G........C..G...  1523
+
+Query_1    661   GAGATGGGTCTGATTTACGTTAACCCGGAAGGCCCGGATCACAGCGGCGAACCGCTTTCT  720
+Subject_1  1522  ........C..T..C.................G...........................  1463
+
+Query_1    721   GCGGCAGCAGCTATCCGCGCGACCTTCGGCAACATGGGCATGAACGACGAAGAAACCGTG  780
+Subject_1  1462  ..C..C..C.....T.....C.....T.....T.....G.....................  1403
+
+Query_1    781   GCGCTGATTGCGGGTGGTCATACGCTGGGTAAAACCCACGGTGCCGGTCCGACATCAAAT  840
+Subject_1  1402  ...T....C..C..C..G.....C..C..............C..-..G.A......CC..  1342
+                                                                    \\       
+                                                                    ||       
+                                                                    C|
+                                                                     |       
+                                                                     G
+
+Query_1    841   GTAGGTCCTGATCCAGAAGCTGCACCGATTGAAGAACAAGGTTTAGGTTGGGCGAGCACT  900
+Subject_1  1341  .....GG.C.....G.....C..G..........CG..G..C...........C....GC  1282
+
+Query_1    901   TACGGCAGCGGCGTTGGCGCAGATGCCATTACCTCTGGTCTGGAAGTAGTCTGGACCCAG  960
+Subject_1  1281  ..T..T....................T........C..G........G........G...  1222
+
+Query_1    961   ACGCCGACCCAGTGGAGCAACTATTTCTTCGAGAACCTGTTCAAGTATGAGTGGGTACAG  1020
+Subject_1  1221  ............................................A..............A  1162
+
+Query_1    1021  ACCCGCAGCCCGGCTGGCGCAATCCAGTTCGAAGCGGTAGACGCACCGGAAATTATCCCG  1080
+Subject_1  1161  .....G..T...........T........T..............G.....C..C......  1102
+
+Query_1    1081  GATCCGTTTGATCCGTCGAAGAAACGTAAACCGACAATGCTGGTGACCGACCTGACGCTG  1140
+Subject_1  1101  ........C...........A........G..A..C........C...............  1042
+
+Query_1    1141  CGTTTTGATCCTGAGTTCGAGAAGATCTCTCGTCGTTTCCTCAACGATCCGCAGGCGTTC  1200
+Subject_1  1041  ...........G..............T..C..C........T..............C..T  982
+
+Query_1    1201  AACGAAGCCTTTGCCCGTGCCTGGTTCAAACTGACGCACAGGGATATGGGGCCGAAATCT  1260
+Subject_1  981   ..T...........T..........................A...........A...G.G  922
+
+Query_1    1261  CGCTACATCGGGCCGGAAGTGCCGAAAGAAGATCTGATCTGGCAAGATCCGCTGCCGCAG  1320
+Subject_1  921   ..T........A................................G..C...T.......A  862
+
+Query_1    1321  CCGATCTACAACCCGACCGAGCAGGACATTATCGATCTGAAATTCGCGATTGCGGATTCT  1380
+Subject_1  861   ...CG....C.G..A..GC..G.A........TA.C......GCG.....C..T.CA..C  802
+
+Query_1    1381  GGTCTGTCTGTTAGTGAGCTGGTATCGGTGGCCTGGGCATCTGCTTCTACCTTCCGTGGT  1440
+Subject_1  801   ..G..T...A....C...A....T.....T...........C..G.....T........C  742
+
+Query_1    1441  GGCGACAAACGCGGTGGTGCCAACGGTGCGCGTCTGGCATTAATGCCGCAGCGCGACTGG  1500
+Subject_1  741   .....T..G..T..C..C..T.....................GC...C............  682
+
+Query_1    1501  GATGTGAACGCCGCAGCCGTTCGTGCTCTGCCTGTTCTGGAGAAAATCCAGAAAGAGTCT  1560
+Subject_1  681   ..G..........TT..G.C...C.T......G..AT.A..AGCGC........AC.A..  622
+
+Query_1    1561  GGTAAAGCCTCGCTGGCGGATATCATAGTGCTGGCTGGTGTGGTTGGTGTTGAGAAAGCC  1620
+Subject_1  621   AA...............C.....T..T........G..C.....C...A.C...C.G..G  562
+
+Query_1    1621  GCAAGCGCCGCAGGTTTGAGCATTCATGTACCGTTTGCGCCGGGTCGCGTTGATGCGCGT  1680
+Subject_1  561   ..C-....T..G...G.C.....-..G.....T...........C..G..G.........  502
+                       \                    \                                
+                       |                    |                                
+                       T                    C
+
+Query_1    1681  CAGGATCAGACTGACATTGAGATGTTTGAGCTGCTGGAGCCAATTGCTGACGGTTTCCGT  1740
+Subject_1  501   ...........C..............CTC......T..A..G.....C..T..A......  442
+
+Query_1    1741  AACTATCGCGCTCGTCTGGACGTTTCCACCACCGAGTCACTGCTGATCGACAAAGCACAG  1800
+Subject_1  441   ........T..G........T..G..G..G........G........T..T.....G...  382
+
+Query_1    1801  CAACTGACGCTGACCGCGCCGGAAATGACTGCGCTGGTGGGCGGCATGCGTGTACTGGGT  1860
+Subject_1  381   ...T.A...T...................G.TA.....T.....G........G.....A  322
+
+Query_1    1861  GCCAACTTCGATGGCAGCAAAAACGGCGTCTTCACTGACCGCGTTGGCGTATTGAGCAAT  1920
+Subject_1  321   A.......T..C......C.G.....T.....T..C...A..CG-.....GC.C....C.  262
+                                                          \                  
+                                                          |                  
+                                                          A
+
+Query_1    1921  GACTTCTTCGTGAACTTGCTGGATATGCGTTACGAGTGGAAAGCGACCGACGAATCGAAA  1980
+Subject_1  261   ...........A.T...-.......................GC.C........CG.T..T  202
+                           \                                                 
+                           |                                                 
+                           C
+
+Query_1    1981  GAGCTGTTCGAAGGCCGTGACCGTGAAACCGGCGAAGTGAAATTTACGGCCAGCCGTGCG  2040
+Subject_1  201   .................C..T...CTG..T.....G..A....AC.....G.C...C..C  142
+
+Query_1    2041  GATCTGGTGTTTGGTTCTAACTCCGTCCTGCGTGCGGTGGCGGAAGTTTACGCCAGTAGC  2100
+Subject_1  141   ..............G...........A.....C...C..........C......T.....  82
+
+Query_1    2101  GATGCCCACGAGAAGTTTGTTAAAGACTTCGTGGCGGCATGGGTGAAAGTGATGAACCTC  2160
+Subject_1  81    .....G..............G..G........C..........................G  22
+
+Query_1    2161  GACCGTTTCGACCTGCTGTAA  2181
+Subject_1  21    .....................  1
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 4695888
+
+
+  Database: User specified sequence set (Input: katG_SE.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 2,183
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

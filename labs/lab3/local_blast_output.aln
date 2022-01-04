@@ -1,4 +1,4 @@
-BLASTN 2.4.0+
+BLASTN 2.5.0+
 
 
 Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
@@ -7,7 +7,7 @@ Comput Biol 2000; 7(1-2):203-14.
 
 
 
-Database: User specified sequence set (Input: katG_SE.fasta).
+Database: User specified sequence set (Input: lab3/katG_SE.fasta).
            1 sequences; 2,183 total letters
 
 
@@ -162,7 +162,7 @@ Lambda      K        H
 Effective search space used: 4695888
 
 
-  Database: User specified sequence set (Input: katG_SE.fasta).
+  Database: User specified sequence set (Input: lab3/katG_SE.fasta).
     Posted date:  Unknown
   Number of letters in database: 2,183
   Number of sequences in database:  1

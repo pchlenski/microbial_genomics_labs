@@ -3,7 +3,7 @@ import argparse
 
 def get_options():
 	description = "Match patterns within strings"
-	parser = argparse.ArgumentParser(description = description,prog = 'patternCount.py')
+	parser = argparse.ArgumentParser(description = description,prog = 'reverse_complement.py')
 	parser.add_argument('sequence', action='store',help='DNA sequence string')
 	return parser.parse_args()
 

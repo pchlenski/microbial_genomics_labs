@@ -1,4 +1,4 @@
-#Docker Image for Microbial Genomics BIOL BC3300 Spring 2023
+#Docker Image for Microbial Genomics BIOL BC3308 Spring 2023
 
 FROM ubuntu 
 MAINTAINER pac@cs.columbia.edu
@@ -23,6 +23,6 @@ RUN conda install -c conda-forge -c bioconda -c defaults snippy
 RUN conda install -c bioconda bwa spades clustalw vcftools openssl=1.0\
 	samtools blast fastp fastqc fasttree minimap2 bcftools sra-tools
 RUN conda install -c conda-forge biopython
-RUN git clone https://github.com/pchlenski/microbial_genomics_labs.git /root/biolbc3300
+RUN git clone https://github.com/pchlenski/microbial_genomics_labs.git /root/biolbc3308
 
 CMD ["jupyter", "notebook", "/root/biolbc3300/labs", "--port=8888", "--ip=0.0.0.0", "--allow-root", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"]

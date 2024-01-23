@@ -17,6 +17,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
 	&& bash Miniconda3-latest-Linux-x86_64.sh -b \
 	&& rm -f Miniconda3-latest-Linux-x86_64.sh
 RUN conda update conda && conda update --all
+RUN conda remove --force menuinst
 RUN conda install python=3.7
 RUN conda install -c conda-forge notebook nb_conda_kernels
 RUN conda install -c conda-forge -c bioconda -c defaults snippy

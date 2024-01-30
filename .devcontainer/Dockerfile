@@ -19,6 +19,7 @@ RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh \
 RUN conda update conda && conda update --all
 RUN conda remove --force menuinst
 RUN conda install python=3.7
+RUN conda install -c conda-forge jupyterlab
 RUN conda install -c conda-forge notebook nb_conda_kernels
 RUN conda install -c conda-forge -c bioconda -c defaults snippy
 RUN conda install -c bioconda bwa spades clustalw vcftools openssl=1.0\
